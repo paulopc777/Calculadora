@@ -19,7 +19,7 @@ function calcular(){
     }
     else
     {
-        document.getElementById('resultado').innerHTML = "coloca numero animal";
+        document.getElementById('resultado').innerHTML = "inserir um numero";
 
         var intervalo = window.setTimeout(function() {
            document.getElementById('resultado').innerHTML = "";
