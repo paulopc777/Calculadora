@@ -10,7 +10,7 @@ body{
     height: 100vh;
 }
 header{
-    display: flex;
+    display: none;
     height: 50px;
     border-bottom: solid #B39C00 2px ;
     align-items: center;
@@ -54,4 +54,18 @@ main{
     margin: 10px;
     font-weight: 700;
 
+}
+@media screen and (min-width:600px) {
+    html{
+        transform: scale(1.4);
+        width: 80vw;
+    }
+    .calculadora{
+        margin-left: 15%;
+        margin-top: 10%;
+    }
+    #resultado{
+        font-weight: 600;
+        height: 40px;
+    }
 }
