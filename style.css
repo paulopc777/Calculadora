@@ -27,11 +27,12 @@ main{
 .calculadora{
    background-color:#3C3080;
    border: solid  #3C3080 10px;
-   border-bottom:solid #211b46 3px ;
+   border-bottom:solid #211b46 4px ;
    border-radius: 10px;
    background-color: rgba(0, 0, 0, 0,6);
 }
 .botao{
+    display: flex;
     background-color: #211b46;
     color: #ccc3ff;
     width: 50px;
@@ -39,6 +40,10 @@ main{
     font-size: 25px;
     cursor: pointer;
     transition: 0,2s;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15%;
+    
 }
 .botao:hover{
     background-color: #3C3080;
